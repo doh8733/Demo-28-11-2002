@@ -53,7 +53,9 @@ class PickerActivity : AppCompatActivity() {
     }
 
     private fun spinner(){
-        spnPicker.adapter = SelectSpinnerAdapter(this,R.layout.item_category,getAllName())
+        spnPicker.adapter = SelectSpinnerAdapter(this,R.layout.item_category,getAllName()) {
+            tvSpinner.text = it.name
+        }
     }
 
     private fun getAllName(): MutableList<NoMore> {

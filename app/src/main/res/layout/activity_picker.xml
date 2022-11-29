@@ -31,62 +31,48 @@
         app:layout_constraintStart_toEndOf="@+id/tvTime"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/layoutTime"
+
+    <TextView
+        android:id="@+id/btnTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/layoutDate"
-        app:layout_constraintHorizontal_chainStyle="spread"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/hover"
+        android:backgroundTintMode="multiply"
+        android:fontFamily="@font/chopin"
+        android:padding="8dp"
+        android:text="Pick time"
+        app:layout_constraintEnd_toStartOf="@+id/btnDate"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTime">
-
-        <TextView
-            android:id="@+id/btnTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/hover"
-            android:fontFamily="@font/chopin"
-            android:padding="8dp"
-            android:text="Pick time" />
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
 
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/layoutDate"
+    <TextView
+        android:id="@+id/btnDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        app:cardCornerRadius="16dp"
+        android:background="@drawable/hover"
+        android:fontFamily="@font/allura_regular"
+        android:padding="8dp"
+        android:text="Pick date"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/layoutTime"
-        app:layout_constraintTop_toBottomOf="@+id/tvDate">
-
-        <TextView
-            android:id="@+id/btnDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/hover"
-            android:padding="8dp"
-            android:text="Pick date"
-            android:fontFamily="@font/allura_regular"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/layoutTime"
-            app:layout_constraintTop_toBottomOf="@+id/tvTime" />
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintStart_toEndOf="@+id/btnTime"
+        app:layout_constraintTop_toBottomOf="@+id/tvTime" />
 
     <Spinner
         android:id="@+id/spnPicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="24dp"
         android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layoutTime" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTime" />
+
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/layoutSpinner"
