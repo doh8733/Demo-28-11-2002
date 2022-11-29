@@ -22,54 +22,56 @@
         android:id="@+id/tilEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="54dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginEnd="48dp"
         android:hint="Email"
-        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
+        app:startIconDrawable="@drawable/mail">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@drawable/corner_top" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tiPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Email"
-        app:boxBackgroundColor="@color/white"
+        android:hint="Password"
         app:boxCornerRadiusBottomStart="8dp"
         app:boxCornerRadiusBottomEnd="8dp"
         app:layout_constraintEnd_toEndOf="@+id/tilEmail"
         app:layout_constraintStart_toStartOf="@+id/tilEmail"
         app:layout_constraintTop_toBottomOf="@+id/tilEmail"
-        app:startIconDrawable="@drawable/ic_baseline_mail_outline_24">
-
+        app:startIconDrawable="@drawable/lock"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:background="@drawable/corner_bot"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginEnd="48dp"
         android:padding="12dp"
         android:text="Sign in"
         android:textAllCaps="false"
-        app:cornerRadius="6dp"
         android:textSize="18sp"
         app:backgroundTint="#FF5722"
+        app:cornerRadius="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tiPassword" />
@@ -78,19 +80,20 @@
         android:id="@+id/btnFaceBook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
+        android:layout_marginStart="48dp"
         android:layout_marginTop="48dp"
-        android:layout_marginEnd="54dp"
-        android:padding="12dp"
-        app:icon="@drawable/ic_f"
-        app:iconGravity="textStart"
+        android:layout_marginEnd="48dp"
         android:backgroundTint="#3F51B5"
-        app:iconSize="24dp"
-        app:cornerRadius="6dp"
+        android:padding="12dp"
+        android:paddingStart="26dp"
         android:text="Sign in with Facebook"
         android:textAlignment="center"
         android:textAllCaps="false"
         app:backgroundTint="#FF5722"
+        app:cornerRadius="6dp"
+        app:icon="@drawable/ic_f"
+        app:iconGravity="textStart"
+        app:iconSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,14 +103,13 @@
         android:id="@+id/materialButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="54dp"
-        android:layout_marginEnd="54dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
         android:padding="12dp"
-        app:cornerRadius="6dp"
-
         android:text="Sign in with Twitter"
         android:textAllCaps="false"
         app:backgroundTint="#03A9F4"
+        app:cornerRadius="6dp"
         app:icon="@drawable/ic_twitter"
         app:iconGravity="textStart"
         app:iconSize="24dp"
@@ -119,9 +121,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="32dp"
         android:text="Forgot password?"
         android:textColor="#C5C1C1"
+        android:textSize="12dp"
         app:layout_constraintStart_toStartOf="@+id/materialButton"
         app:layout_constraintTop_toBottomOf="@+id/materialButton" />
 
@@ -129,8 +133,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="New here?SignUp"
+        android:layout_marginEnd="12dp"
+        android:text="New here?Sign Up"
         android:textColor="#C5C1C1"
+        android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="@+id/materialButton"
         app:layout_constraintTop_toBottomOf="@+id/materialButton" />
 

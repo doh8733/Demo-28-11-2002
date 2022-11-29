@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/drawable/corner_bot.xml" value="0.1815" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/drawable/corner_top.xml" value="0.1815" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/drawable/bg_til.xml" value="0.133" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/layout/fragment_blank.xml" value="0.253125" />
