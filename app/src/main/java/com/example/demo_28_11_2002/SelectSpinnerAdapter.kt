@@ -16,7 +16,7 @@ class SelectSpinnerAdapter(
     var callbacks: (NoMore) -> Unit
 ) : ArrayAdapter<NoMore>(context, resource, objects) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        val convertView =
+        val convertView = //a
             LayoutInflater.from(parent.context).inflate(R.layout.item_category, parent, false)
         val tvSelected: TextView by lazy { convertView.findViewById(R.id.tvSelector) }
 
