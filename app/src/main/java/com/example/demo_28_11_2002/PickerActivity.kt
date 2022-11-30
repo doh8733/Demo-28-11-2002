@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.app.DatePickerDialog
 import android.app.Dialog
 import android.app.TimePickerDialog
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -30,6 +31,9 @@ class PickerActivity : AppCompatActivity() {
         }
         tvDialog.setOnClickListener {
             openDialog()
+        }
+        tvNextActivity.setOnClickListener {
+            startActivity(Intent(this,ListviewActivity::class.java))
         }
     }
     private fun timePicker(){
