@@ -136,6 +136,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutSpinner" />
+    <TextView
+        android:id="@+id/tvNextRcview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/hover"
+        android:fontFamily="@font/allura_regular"
+        android:padding="8dp"
+        android:text="Next recyclerview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNextActivity" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

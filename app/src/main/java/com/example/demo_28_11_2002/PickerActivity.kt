@@ -35,6 +35,10 @@ class PickerActivity : AppCompatActivity() {
         tvNextActivity.setOnClickListener {
             startActivity(Intent(this,ListviewActivity::class.java))
         }
+        tvNextRcview.setOnClickListener {
+            startActivity(Intent(this,RecyclerViewActivity::class.java))
+
+        }
     }
     private fun timePicker(){
         val timeSetListener =
