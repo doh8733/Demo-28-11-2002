@@ -24,6 +24,7 @@ class SelectSpinnerAdapter(
         tvSelected.text = item.name
         callbacks(item)
         return convertView
+        //hi
     }
 
     override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup): View {
