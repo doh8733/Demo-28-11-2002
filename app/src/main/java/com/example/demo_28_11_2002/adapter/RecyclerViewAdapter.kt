@@ -14,7 +14,7 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolde
         this.list = list
         notifyDataSetChanged()
     }
-    class ViewHolder(view : View) : RecyclerView.ViewHolder(view){
+    open class ViewHolder(view : View) : RecyclerView.ViewHolder(view){
        private var tvName = itemView.tvName
         fun onBindView(user: User){
             tvName.text = user.name

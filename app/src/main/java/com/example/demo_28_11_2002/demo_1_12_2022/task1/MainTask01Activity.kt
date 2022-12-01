@@ -1,6 +1,7 @@
 package com.example.demo_28_11_2002.demo_1_12_2022.task1
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -13,6 +14,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import com.example.demo_28_11_2002.R
+import com.example.demo_28_11_2002.demo_1_12_2022.task2_firebase.NotifiCationActivity
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main_task01.*
@@ -59,8 +61,10 @@ class MainTask01Activity : AppCompatActivity(), NavigationView.OnNavigationItemS
         replaceFragment(SearchkFragment())
 
         val name = intent.extras?.getString("name")
+        val email = intent.extras?.getString("email")
         val naview = navView.inflateHeaderView(R.layout.layout_header_nav)
         naview.name.text = name
+        naview.email.text = email
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -95,6 +99,9 @@ class MainTask01Activity : AppCompatActivity(), NavigationView.OnNavigationItemS
                     replaceFragment(HeartFragment())
                     mCurrenFragment = FRAGMENT_HEART
                 }
+            }
+            R.id.pushNotification ->{
+                startActivity(Intent(this,NotifiCationActivity::class.java))
             }
         }
         layoutContainerTask1.closeDrawer(GravityCompat.START)
