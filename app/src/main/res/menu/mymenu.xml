@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/actionSearch"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom"
+        android:title="Search"
+        tools:ignore="HardcodedText" />
+    <item android:id="@+id/actionHeartBroken"
+        android:icon="@drawable/ic_baseline_heart_broken_24"
+        app:showAsAction="ifRoom"
+        android:title="Heart Broken"
+        tools:ignore="HardcodedText" />
+</menu>

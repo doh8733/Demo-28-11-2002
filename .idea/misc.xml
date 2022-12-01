@@ -8,12 +8,33 @@
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/drawable/corner_btn.xml" value="0.123" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/drawable/corner_top.xml" value="0.1815" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/drawable/hover.xml" value="0.2155" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_ato_bactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_bto_aactivity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_listview.xml" value="0.2578125" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_main2.xml" value="0.136" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_main_task01.xml" value="0.25416666666666665" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_parent.xml" value="0.24722222222222223" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_pick_time.xml" value="0.11302083333333333" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_picker.xml" value="0.2" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_question.xml" value="0.2" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_recyler_view.xml" value="0.25416666666666665" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/activity_time.xml" value="0.11302083333333333" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/dialog_view.xml" value="0.253125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_1.xml" value="0.2578125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_2.xml" value="0.2578125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_4.xml" value="0.2578125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_5.xml" value="0.2578125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_heart.xml" value="0.1078125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/fragment_searchk.xml" value="0.1078125" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/item_category.xml" value="0.1" />
         <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/item_selecter.xml" value="0.18703703703703703" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/item_user.xml" value="0.264" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/item_view_user.xml" value="0.253125" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/layout/layout_header_nav.xml" value="0.264" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Demo-Thuc-Tap/Demo28112002/app/src/main/res/menu/mymenu.xml" value="0.253125" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/drawable/bg_til.xml" value="0.133" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Flutter/Demo28112002/app/src/main/res/layout/fragment_blank.xml" value="0.253125" />
