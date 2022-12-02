@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    tools:context=".demo_1_12_2022.realtimedb.FireRealTimeActivity">
+
+    <Button
+        android:id="@+id/btnPushData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push" />
+
+    <Button
+        android:id="@+id/btnReadData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read Data" />
+
+    <TextView
+        android:id="@+id/tvResultData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HUUHU"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

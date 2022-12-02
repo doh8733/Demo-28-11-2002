@@ -1,5 +1,6 @@
 package com.example.demo_28_11_2002.demo_1_12_2022.task2_firebase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +8,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.example.demo_28_11_2002.R
 import com.example.demo_28_11_2002.demo_1_12_2022.task2_firebase.ApiStatus.*
+import com.example.demo_28_11_2002.demo_1_12_2022.task2_firebase.firestorage.FireStorageActivity
 import kotlinx.android.synthetic.main.activity_notifi_cation.*
 
 class NotifiCationActivity : AppCompatActivity() {
@@ -18,6 +20,12 @@ class NotifiCationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notifi_cation)
+
+        btnUploadImage.setOnClickListener {
+            startActivity(Intent(this,FireStorageActivity::class.java))
+        }
+
+
         val sdf = getSharedPreferences("MYTOKEN", MODE_PRIVATE)
         val url = sdf.getString("token","")
         edTokenDevice.setText(url)
