@@ -22,4 +22,13 @@ object RetrofitClient {
 
     private var build = retrofit.build()
     var api: TodoApi = build.create(TodoApi::class.java)
+
+    //
+    private const val INSTAGRAM_URL ="https://api.instagram.com/v1/"
+    private val retrofit2 =Retrofit.Builder()
+        .baseUrl(INSTAGRAM_URL)
+        .addConverterFactory(GsonConverterFactory.create())
+
+     val instagramApi = retrofit2.build()
+
 }

@@ -80,7 +80,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tiPassword" />
 
-    <com.google.android.material.button.MaterialButton
+    <com.facebook.login.widget.LoginButton
         android:id="@+id/btnFaceBook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -142,6 +142,15 @@
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/materialButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLoginWithInstagram"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Login with instagram"
+        app:layout_constraintEnd_toEndOf="@+id/btnLoginGoogle"
+        app:layout_constraintStart_toStartOf="@+id/btnLoginGoogle"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoginGoogle" />
 
     <TextView
         android:layout_width="wrap_content"
